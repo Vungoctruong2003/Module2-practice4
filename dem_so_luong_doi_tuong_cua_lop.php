@@ -3,8 +3,8 @@
 
 class Application
 {
-    private  $name;
-    public static  $count = 0;
+    private $name;
+    public static $count = 0;
 
     public function __construct($name)
     {
@@ -25,3 +25,5 @@ $app2 = new Application('App Two');
 echo "Total objects count: " . Application::$count . "<br/>";
 echo $app1 . '<br/>';
 echo $app2 . '<br/>';
+
+
